@@ -1,0 +1,11 @@
+# POST http://localhost:3000/api/email
+POST https://queuniforme.com.br/api/email
+content-type: application/json
+
+{
+  "name": "Teste",
+  "email": "email@email.com",
+  "phone": "(00) 00000-0000",
+  "message": "Mensagem",
+  "type": "Linha Hospitalar"
+}
